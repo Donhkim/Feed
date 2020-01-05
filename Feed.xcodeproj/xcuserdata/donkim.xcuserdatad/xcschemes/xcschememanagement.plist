@@ -4,10 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>CI.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>Feed.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>FeedEndToEndTests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 		<key>FeedTests.xcscheme_^#shared#^_</key>
 		<dict>
@@ -33,6 +43,11 @@
 			<true/>
 		</dict>
 		<key>6B744AFC23BE40BB00C9A228</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6BA09CA523C1CE420070886C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
