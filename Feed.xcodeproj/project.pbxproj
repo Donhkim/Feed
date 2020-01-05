@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6B744AF523BE40AB00C9A228 /* Feed.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B744AF323BE40AB00C9A228 /* Feed.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B744B0023BE40BB00C9A228 /* FeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B744AFF23BE40BB00C9A228 /* FeedTests.swift */; };
 		6B744B0223BE40BB00C9A228 /* Feed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B744AF123BE40AB00C9A228 /* Feed.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,8 +30,6 @@
 		6B744AF323BE40AB00C9A228 /* Feed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Feed.h; sourceTree = "<group>"; };
 		6B744AF423BE40AB00C9A228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B744AFD23BE40BB00C9A228 /* FeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B744AFF23BE40BB00C9A228 /* FeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTests.swift; sourceTree = "<group>"; };
-		6B744B0123BE40BB00C9A228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6BD5863723BB880A00F8650C /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,7 +65,6 @@
 			children = (
 				6B744AD223BE374500C9A228 /* FeedTests */,
 				6B744AF223BE40AB00C9A228 /* Feed */,
-				6B744AFE23BE40BB00C9A228 /* FeedTests */,
 				6B5654CB23A91831001C2ABE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,15 +97,6 @@
 				6B744AF423BE40AB00C9A228 /* Info.plist */,
 			);
 			path = Feed;
-			sourceTree = "<group>";
-		};
-		6B744AFE23BE40BB00C9A228 /* FeedTests */ = {
-			isa = PBXGroup;
-			children = (
-				6B744AFF23BE40BB00C9A228 /* FeedTests.swift */,
-				6B744B0123BE40BB00C9A228 /* Info.plist */,
-			);
-			path = FeedTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,7 +214,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B744B0023BE40BB00C9A228 /* FeedTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
