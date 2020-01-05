@@ -115,15 +115,9 @@ class FeedEndToEndTests: XCTestCase {
 #if !DEBUG
 class App {
     init() {
-        let tests = RemoteFeedLoaderTests()
+        let tests = FeedEndToEndTests()
         tests.allTests = [
-            tests.test_init_doesNotRequestDataFromURL,
-            tests.test_load_requestsDataFromURL,
-            tests.test_loadTwice_requestsDataFromURLTwice,
-            tests.test_load_deliversErrorOnClientError,
-            tests.test_load_deliversErrorOnNon200HTTPResponse,
-            tests.test_load_deliversNoItemsOn200HTTPResponseWithEmptyJSONList,
-            tests.test_load_deliversItemsOn200HTTPResponseWithJSONItems
+            tests.test_endToEndTestServerGetFeedResult_matchesFixedTestAccountData,
         ]
         try? tests.run()
     }
